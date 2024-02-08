@@ -1,0 +1,14 @@
+.aboutPage {
+    display: block;
+    padding: 0 2rem;
+}
+
+.aboutPage h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutPage p{
+    font-size: 20px;
+    font-weight: 300;
+}

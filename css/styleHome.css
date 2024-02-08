@@ -1,0 +1,62 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgb(0, 0, 0 / 15%);
+}
+
+.logo img{
+    max-width: 200px;
+    height: auto;
+}
+
+.navbar a{
+    color:#000000;
+    font-size: 16px;
+    padding: 0px 20px;
+    font-weight: 500;
+    transition: .4s ease;
+}
+
+.navbar a:hover{
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #000000;
+}
+
+.homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+.homePage img{
+    max-width: 100%;
+    max-height: 85vh;
+    padding: 0 5%;
+}
+
+.descriptionCatBreeds {
+display:block;
+padding: 0 2rem;
+}
+
+.descriptionCatBreeds h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.descriptionCatBreeds p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
