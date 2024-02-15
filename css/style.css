@@ -4,7 +4,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -18,28 +17,3 @@ footer p {
 
 /* Media Queries */
 
-/* Laptop */
-@media (max-width: 1366px) {
-  html {
-    font-size: 75%;
-  }
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-/* Mobile Phone */
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-  .typeCatBreeds{
-    width: 100%;
-    height: auto;
-    padding: 90px 2%;
-}
-}

@@ -32,30 +32,30 @@ header {
     background-color: #000000;
 }
 
-.homePage{
+.home-page{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 7rem;
 }
 
-.homePage img{
+.home-page img{
     max-width: 100%;
     max-height: 85vh;
     padding: 0 5%;
 }
 
-.descriptionCatBreeds {
+.description-breeds {
 display:block;
 padding: 0 2rem;
 }
 
-.descriptionCatBreeds h1{
+.description-breeds h1{
     font-size: 40px;
     font-weight: 700;
 }
 
-.descriptionCatBreeds p{
+.description-breeds p{
     font-size: 20px;
     font-weight: 300;
 }

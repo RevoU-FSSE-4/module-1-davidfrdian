@@ -1,0 +1,14 @@
+.contact-page {
+  display: flex;
+  padding: 2rem;
+}
+
+.contact-page h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact-page p{
+    font-size: 20px;
+    font-weight: 500;
+}

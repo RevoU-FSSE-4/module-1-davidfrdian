@@ -1,0 +1,21 @@
+.cat-breeds {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.title-breeds {
+  font-size: 40px;
+  padding: 0 2rem;
+}
+
+.cat-breeds img {
+  max-width: 250px;
+  border-radius: 10%;
+  border: 2px solid;
+  padding: 20px;
+}
