@@ -1,14 +1,25 @@
 .contact-page {
   display: flex;
-  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 2em;
 }
 
 .contact-page h1 {
-  font-size: 40px;
+  display:flex;
+  font-size: 35px;
   font-weight: 700;
+  position: static;
 }
 
 .contact-page p{
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 500;
+}
+
+.contact-page input{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+
 }
