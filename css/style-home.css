@@ -52,9 +52,11 @@ header {
 .description-breeds h1 {
   font-size: 35px;
   font-weight: 700;
+  padding-bottom: 0.5em;
 }
 
 .description-breeds p {
   font-size: 1em;
   font-weight: 300;
+  padding-bottom: 1em;
 }
