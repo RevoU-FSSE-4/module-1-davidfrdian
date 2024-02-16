@@ -1,14 +1,14 @@
 .about-page {
-    display: block;
-    margin: 0 2em;
+  display: block;
+  margin: 0 10%;
 }
 
-.about-page h1{
-    font-size: 35px;
-    font-weight: 700;
+.about-page h1 {
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.about-page p{
-    font-size: 1em;
-    font-weight: 300;
+.about-page p {
+  font-size: 1em;
+  font-weight: 300;
 }
