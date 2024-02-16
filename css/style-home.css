@@ -17,11 +17,13 @@ header {
 }
 
 .x-icon{
-display: none;
+display:none;
+color: black;
 }
 
 .menu-icon{
-  display: none;
+  display:none;
+  color: black;
 }
 
 .navbar a {

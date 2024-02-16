@@ -16,28 +16,120 @@ footer p {
 
 /* Media Queries */
 /* Mobile */
-@media only screen and (max-width:500px) {
-  .home-page img{
-    justify-content: center;
-    width: 100%;
+@media screen and (max-width: 500px) {
+  html {
+    .home-page img {
+      justify-content: center;
+      width: 100%;
+    }
+
+    .menu-icon {
+      display: flex;
+      margin-right: 3%;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .menu-icon:hover {
+      color: #fff;
+      background-color: black;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20%;
+      padding: 2px;
+    }
+
+    .navbar {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 100%;
+      right: 100%;
+      background-color: #f9f9f9;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 1em;
+      transition: 0.3s;
+      width: 40vw;
+      z-index: 20;
+    }
+
+    .navbar.active {
+      right: 0;
+    }
+
+    .navbar a {
+      display: block;
+      font-size: 1em;
+      padding: 1em 1em;
+    }
+
+    .description-breeds h1 {
+      font-size: 20px;
+    }
+
+    .description-breeds p {
+      font-size: 12px;
+    }
+
+    .box-breeds h1 {
+      font-size: 20px;
+      margin-bottom: 0.5em;
+    }
+
+    .photos-breeds img {
+      width: 180px;
+    }
+
+    .photos-breeds figcaption {
+      font-size: 12px;
+    }
+    .about-page h1 {
+      font-size: 20px;
+    }
+
+    .about-page p {
+      font-size: 12px;
+    }
+
+    .box-contact h1 {
+      font-size: 20px;
+    }
+
+    .contact-page input,
+    textarea {
+      font-size: 12px;
+    }
+    .contact-page p {
+      font-size: 12px;
+    }
+
+    .contact-page input[type="radio"],
+    label {
+      font-size: 12px;
+    }
+    footer {
+      font-size: 12px;
+    }
   }
 }
 
 /* Tablet */
-@media only screen and (min-width:768px) {
-  .home-page img{
-    justify-content: center;
-    width: 100%;
+@media screen and (min-width: 768px) {
+  html {
+    .home-page img {
+      justify-content: center;
+      width: 100%;
+    }
   }
-
 }
 
-
 /* Laptop */
-@media only screen and (min-width:1280px) {
-  .home-page img{
-    justify-content: center;
-    width: 100%;
+@media screen and (min-width: 1280px) {
+  html {
+    .home-page img {
+      justify-content: center;
+      width: 100%;
+    }
   }
-
 }
