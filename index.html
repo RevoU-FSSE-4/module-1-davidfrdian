@@ -24,14 +24,18 @@
       </div>
         <!-- Navigation -->
       <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Breeds</a>
-        <a href="">About</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#breeds">Breeds</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
+      <nav class="menu-icon">
+        <i data-feather="menu"></i>
+      </nav>
+      <nav class="x-icon"><i data-feather="x"></i></nav>
     </header>
     <!-- Home Page -->
-    <section class="home-page">
+    <section class="home-page" id="home">
       <img
         src="./images/cat-home-page.png"
         alt="cat-home-page"
@@ -44,7 +48,7 @@
         There are various cat breeds around the world, and each breed has different characteristics, appearances, and personalities.
       </p>
 
-      <br>
+<br>
 
       <h1>What are cat breeds and why are they important for cat owners?</h1>
       <p>
@@ -70,7 +74,7 @@
     </article>
 
     <!-- Cat Breeds -->
-    <div class="box-breeds">
+    <div class="box-breeds" id="breeds">
     <h1>Several Types of Cat Breeds</h1>
     <section class="cat-breeds">
     <figure class="photos-breeds">
@@ -103,7 +107,7 @@
 <br>
 
 <!-- About Section -->
-<section class="about-page">
+<section class="about-page" id="about">
 <h1>About Us</h1>
 <p>Welcome to Cat Breeds – your ultimate hub for all things feline! We're dedicated to providing cat lovers with comprehensive resources on care, health, and behavior. Whether you're a seasoned owner or new to cat companionship, our expert-curated breed guides and practical tips are here to ensure your furry friend thrives.
 <br><br>
@@ -111,7 +115,7 @@
 </section><br>
 
 <!-- Contact Section -->
-<div class="box-contact">
+<div class="box-contact" id="contact">
 <h1>Contact Us</h1>
 <section class="contact-page">
     <form>
@@ -123,9 +127,9 @@
     <p>Type of your cat?</p>
     <span>
     <input type="radio" id="domestic-cat" name="type-of-cat" value="domestic">
-    <label for="domestic-cat">Domestic Cat (Kucing Domestik)</label>
+    <label for="domestic-cat">Domestic Cat</label>
     <input type="radio" id="pedigreed-cat" name="type-of-cat" value="pedigreed">
-    <label for="pedigreed-cat">Pedigreed Cat (Kucing Ras)</label>
+    <label for="pedigreed-cat">Pedigreed Cat</label>
     </span>
     
     <input type="submit" name="submit-button" id="submit-button">
@@ -138,5 +142,11 @@
 <footer>
     <p>Copyright &copy; 2024 All Rights Reserved.</p>
 </footer>
+
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace();
+</script>
   </body>
 </html>
